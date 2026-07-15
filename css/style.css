@@ -258,6 +258,9 @@ section {
     max-width: 500px;
     animation: floatImage 4s ease-in-out infinite;
     filter: drop-shadow(0 20px 50px rgba(0, 212, 255, 0.2));
+    border-radius: 50%;
+    border: 3px solid rgba(0, 212, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.4), inset 0 0 30px rgba(0, 212, 255, 0.1);
 }
 
 @keyframes floatImage {
