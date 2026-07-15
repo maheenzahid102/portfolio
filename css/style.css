@@ -404,6 +404,44 @@ span {
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    flex: 1 1 45rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.contact-info p {
+    margin: 1rem 0;
+}
+
+.contact-info a {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.contact-image {
+    flex: 1 1 25rem;
+    text-align: center;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    filter: drop-shadow(0 0 10px var(--main-color));
+}
+
 
 /* BreakPoints */
 
